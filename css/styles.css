@@ -28,7 +28,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation bar */
@@ -57,13 +57,18 @@ p {
 
 /* Title-image */
 .title-image {
-  width: 60%;
+  width: 23.5%;
   transform: rotate(25deg);
+  position: absolute;
+  margin-left: 30px;
 }
 
 /* Features-Section */
 #features {
-  padding: 7% 15%;
+  padding: 7% 15% 2%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -82,12 +87,12 @@ p {
 
 /* testimonial section */
 #testimonials {
-
   text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
-.carousel-item{
+
+.carousel-item {
   padding: 7% 15%;
 }
 
@@ -98,25 +103,81 @@ p {
 }
 
 /* press */
-#press{
-background-color: #ef8172;
-text-align: center;
-padding-bottom: 3%;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
 /* Pricing-Section */
-
-
-#pricing{
-padding: 100px;
-text-align: center;
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
-.pricing-column{
-padding: 3% 2%;
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+@media(max-width:991.33px)and (min-width:777px) {
+
+   #title{
+     text-align: center;
+   }
+
+  .title-image{
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+    margin-right:80px;
+  }
+}
+
+@media(max-width:777px) {
+
+   #title{
+     text-align: center;
+
+   }
+   h1{
+      font-size: 40px;
+   }
+
+  .title-image{
+    position: static;
+    width: 48%;
+    transform: rotate(0);
+  }
+}
+
+/* CTA section */
+#cta{
+background-color: #ff4c68;
+color: #fff;
+text-align: center;
+padding: 7% 15%;
+
+}
+
+.cta-heading{
+font-family: "Montserrat-Black";
+font-size: 3.5rem;
+
+}
+
+/* Footer-Section */
+
+.social-icon{
+  margin: 20px 10px;
+}
+#footer{
+ padding: 7% 15%;
+ text-align: center;
 
 }
