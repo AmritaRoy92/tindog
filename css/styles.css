@@ -155,6 +155,9 @@ background-color: #fff;
 .pricing-column {
   padding: 3% 2%;
 }
+.btn-free:hover{
+  background-color: grey;
+}
 
 
 @media(max-width:991.33px)and (min-width:777px) {
